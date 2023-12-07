@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.MyMessageController">
+   <children>
+      <StackPane prefHeight="700.0" prefWidth="600.0">
+         <children>
+            <ImageView fitHeight="762.0" fitWidth="604.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images.jpg" />
+               </image>
+               <effect>
+                  <ColorAdjust brightness="0.83" contrast="0.32" hue="0.07" saturation="0.24" />
+               </effect>
+            </ImageView>
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" fillHeight="false" layoutX="30.0" layoutY="634.0" prefHeight="50.0" prefWidth="540.0" styleClass="input-area" stylesheets="@stylesheet.css">
+         <children>
+            <TextArea fx:id="input" focusTraversable="false" prefHeight="50.0" prefWidth="470.0" promptText="Text something..." stylesheets="@stylesheet.css">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <font>
+                  <Font name="Barlow Medium" size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </TextArea>
+            <Button mnemonicParsing="false" prefHeight="43.0" prefWidth="37.0" style="-fx-background-color: transparent;">
+               <graphic>
+                  <ImageView fx:id="send" fitHeight="39.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Arrow%20-%20Right%20Circle.png" />
+                     </image>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </HBox>
+      <ScrollPane prefHeight="620.0" prefWidth="600.0" stylesheets="@messageArea.css">
+        <content>
+          <AnchorPane prefHeight="592.0" prefWidth="539.0" stylesheets="@stylesheet.css">
+               <children>
+                  <HBox layoutY="14.0" prefHeight="43.0" prefWidth="266.0" styleClass="chat-bubble" stylesheets="@messageArea.css">
+                     <children>
+                        <Label prefHeight="29.0" prefWidth="252.0" text="I broke up with my boyfriend yesterday.">
+                           <font>
+                              <Font name="Barlow Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_RIGHT" layoutX="443.0" layoutY="75.0" prefHeight="43.0" prefWidth="95.0" styleClass="chat-bubble-2" stylesheets="@messageArea.css">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" prefHeight="22.0" prefWidth="86.0" text="OMGGGGGG" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Barlow Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="TOP_RIGHT" layoutX="405.0" layoutY="128.0" prefHeight="43.0" prefWidth="133.0" styleClass="chat-bubble-2" stylesheets="@messageArea.css">
+                     <children>
+                        <Label alignment="CENTER_RIGHT" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="22.0" prefWidth="134.0" text="What's going on ?" textAlignment="RIGHT" textFill="WHITE">
+                           <font>
+                              <Font name="Barlow Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox layoutY="181.0" prefHeight="57.0" prefWidth="351.0" styleClass="chat-bubble" stylesheets="@messageArea.css">
+                     <children>
+                        <Label prefHeight="37.0" prefWidth="342.0" text="He cheated on me. I found he was texting with another girl and She is MY BEST FRIEND !" wrapText="true">
+                           <font>
+                              <Font name="Barlow Medium" size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <ImageView fitHeight="140.0" fitWidth="126.0" layoutX="413.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@084181642c396ecaa191e085b73d5d61.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+        </content>
+         <padding>
+            <Insets left="30.0" top="20.0" />
+         </padding>
+      </ScrollPane>
+   </children>
+</AnchorPane>

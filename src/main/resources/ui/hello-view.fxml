@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="900.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.HelloController">
+   <children>
+      <VBox fillWidth="false" prefHeight="700.0" prefWidth="300.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="43.0" prefWidth="270.0" styleClass="search-bar" stylesheets="@stylesheet.css">
+               <children>
+                  <ImageView fitHeight="37.0" fitWidth="21.0" focusTraversable="true" opacity="0.62" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Search.png" />
+                     </image>
+                     <HBox.margin>
+                        <Insets bottom="1.0" right="5.0" />
+                     </HBox.margin>
+                  </ImageView>
+                  <TextField fx:id="SearchBar" focusTraversable="false" onKeyReleased="#SearchInput" prefHeight="35.0" prefWidth="220.0" promptText="Search" style="-fx-background-color: white;">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets left="15.0" top="20.0" />
+               </VBox.margin>
+            </HBox>
+            <ListView id="listview" fx:id="contactList" focusTraversable="false" onMouseClicked="#SelectItem" prefHeight="622.0" prefWidth="270.0" stylesheets="@stylesheet.css">
+               <VBox.margin>
+                  <Insets left="15.0" top="20.0" />
+               </VBox.margin>
+            </ListView>
+         </children>
+      </VBox>
+      <VBox layoutX="300.0" prefHeight="700.0" prefWidth="600.0">
+         <children>
+            <AnchorPane fx:id="MessageView" prefHeight="727.0" prefWidth="600.0" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<HBox fx:id="hboxRoot" alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="70.0" prefWidth="270.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.CustomCellView">
+   <children>
+      <ImageView fx:id="avatar" fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <HBox.margin>
+            <Insets left="10.0" />
+         </HBox.margin>
+      </ImageView>
+      <VBox alignment="CENTER_LEFT" prefHeight="70.0" prefWidth="289.0">
+         <children>
+            <Label fx:id="name" prefHeight="17.0" prefWidth="87.0" text="Label">
+               <padding>
+                  <Insets bottom="5.0" />
+               </padding>
+            </Label>
+            <Label fx:id="hastag" text="Label" />
+         </children>
+         <HBox.margin>
+            <Insets left="7.0" />
+         </HBox.margin>
+      </VBox>
+   </children>
+</HBox>
