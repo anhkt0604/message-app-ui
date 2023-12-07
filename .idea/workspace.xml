@@ -4,38 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d828b1e-2723-4cda-b48e-929db0f43bcb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/Contact.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/CustomCellView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/ListViewCell.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/MyMessageController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ui/Trie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/CellView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/Jennie Kim.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/Mark Lee.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/Search.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/contactNameList.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/default.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/messageArea.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/messenger-app-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/myMessage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/ui/stylesheet.css" afterDir="false" />
+    <list default="true" id="7d828b1e-2723-4cda-b48e-929db0f43bcb" name="Changes" comment="xongggg">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -81,6 +55,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/My Code/ui/src/main/resources/ui/Screenshot 2023-12-07 102501.png",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -115,14 +90,36 @@
       <option name="presentableId" value="Default" />
       <updated>1701898970205</updated>
       <workItem from="1701898971212" duration="139000" />
-      <workItem from="1701899215301" duration="12700000" />
+      <workItem from="1701899215301" duration="13622000" />
     </task>
+    <task id="LOCAL-00001" summary="xongggg">
+      <option name="closed" value="true" />
+      <created>1701919187250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701919187250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="xongggg" />
+    <option name="LAST_COMMIT_MESSAGE" value="xongggg" />
   </component>
 </project>
